@@ -1027,17 +1027,17 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
 		Da = "WIN",
 		Ba = "FAIL",
 		Fa = [
+			["Awesome!"], // in 1 guess
 			["Awesome!"],
 			["Awesome!"],
 			["Awesome!"],
 			["Awesome!"],
-			["Awesome!"],
-			["Awesome!"]
+			["Awesome!"] // in 6 guesses
 		];
 	Array.prototype.sample = function () {
 		return this[Math.floor(Math.random() * this.length)]
 	};
-	var Ga = function (e) {
+	var Ga = function (e) { // big daddy function
 		r(t, c(HTMLElement));
 		var a = m(t);
 
